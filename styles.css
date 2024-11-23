@@ -10,3 +10,59 @@ section {
     margin-bottom: 20px;
     border-radius: 5px;
 }
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+h2 {
+    margin-top: 0;
+    color: #444;
+}
+button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="text"] {
+    padding: 5px;
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+#buttonContainer button {
+    margin-right: 10px;
+}
+
+p {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #28a745;
+}
+
+#simpleForm {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#simpleForm input[type="text"],
+#simpleForm textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#simpleForm textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+#simpleForm button {
+    align-self: flex-start;
+}

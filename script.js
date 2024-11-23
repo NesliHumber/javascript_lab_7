@@ -16,10 +16,10 @@ keyInput.addEventListener('keyup', (event) => {
     keyMessage.textContent = `Last key pressed: ${event.key}`;
 });
 
-const sampleForm = document.getElementById('sampleForm');
+const simpleForm = document.getElementById('simpleForm');
 const formMessage = document.getElementById('formMessage');
 
-sampleForm.addEventListener('submit', (event) => {
+simpleForm.addEventListener('submit', (event) => {
     event.preventDefault();
     const firstName = document.getElementById('firstName').value;
     const lastName = document.getElementById('lastName').value;
