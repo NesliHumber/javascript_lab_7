@@ -26,3 +26,14 @@ sampleForm.addEventListener('submit', (event) => {
     const message = document.getElementById('message').value;
     formMessage.textContent = `Form submitted! Name: ${firstName} ${lastName}, Message: ${message}`;
 });
+
+const focusInput = document.getElementById('focusInput');
+const focusMessage = document.getElementById('focusMessage');
+
+focusInput.addEventListener('focus', () => {
+    focusMessage.textContent = 'Input field is focused';
+});
+
+focusInput.addEventListener('blur', () => {
+    focusMessage.textContent = 'Input field lost focus';
+});
